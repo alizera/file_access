@@ -2,7 +2,7 @@
 
 An abstract way to handle files on iOS, Android, Desktop and Web!
 
-Online Demo: https://alizera.github.io/file_access/
+
 
 Installing: 
 
@@ -68,9 +68,11 @@ final _string = await _file.readAsString();
 
 Creating a new file:
 
+
 ```dart
 final _file = FileX('path/to/file/file.txt');
 await _file.writeAsString('My New Data!');
 final _output = await _file.readAsString();
 print(_output); // 'My New Data!'
 ```
+https://lizera.github.io/file_access/
